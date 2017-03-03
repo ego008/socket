@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mushroomsir/socket"
 	"github.com/stretchr/testify/assert"
+	"github.com/teambition/socket"
 )
 
 var (

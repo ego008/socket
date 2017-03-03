@@ -2,7 +2,6 @@ package socket
 
 import (
 	"bytes"
-	"fmt"
 	"io"
 	"net"
 	"sync"
@@ -50,7 +49,6 @@ func (s *Socket) ReadAll(initialCap ...int) (datas []byte, err error) {
 	var n int
 	for {
 		n, err = s.Read(request)
-		fmt.Print(n)
 		if n > 0 {
 			jsonBuf.Write(request[0:n])
 		}

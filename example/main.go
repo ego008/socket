@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/mushroomsir/socket"
+	"github.com/teambition/socket"
 )
 
 var (

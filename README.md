@@ -1,18 +1,18 @@
 # socket
 
-[![Build Status](https://travis-ci.org/mushroomsir/socket.svg?branch=master)](https://travis-ci.org/mushroomsir/socket)
-[![Coverage Status](http://img.shields.io/coveralls/mushroomsir/socket.svg?style=flat-square)](https://coveralls.io/r/mushroomsir/socket)
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/mushroomsir/socket/master/LICENSE)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/mushroomsir/socket)
+[![Build Status](https://travis-ci.org/teambition/socket.svg?branch=master)](https://travis-ci.org/teambition/socket)
+[![Coverage Status](http://img.shields.io/coveralls/teambition/socket.svg?style=flat-square)](https://coveralls.io/r/teambition/socket)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/teambition/socket/master/LICENSE)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/teambition/socket)
 
 ## Installation and Usage
 Install the package with:
 ```go
-go get github.com/mushroomsir/socket
+go get github.com/teambition/socket
 ```
 Import it with:
 ```go
-import "github.com/mushroomsir/socket"
+import "github.com/teambition/socket"
 ```
 and use `socket` as the package name inside the code.
 ## Features
