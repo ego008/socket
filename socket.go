@@ -52,11 +52,14 @@ func (s *Socket) ReadAll(initialCap ...int) (datas []byte, err error) {
 		if n > 0 {
 			jsonBuf.Write(request[0:n])
 		}
-		if n < initial || err != nil {
-			break
+		if err != nil {
+			if err == io.EOF {
+				break
+			}
+			return nil, err
 		}
 	}
-	return jsonBuf.Bytes(), err
+	return jsonBuf.Bytes(), nil
 }
 
 // Ping to detect whether the socket is closed.
